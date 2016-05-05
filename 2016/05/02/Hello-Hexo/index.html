@@ -80,16 +80,22 @@
 
 
 
-<meta name="description" content="水清鱼读月,山静鸟谈天.">
+<meta name="description" content="HEXO搭建博客参考地址:http://yasenia.github.io/
+在学习使用HEXO之前你至少懂得node.js和git命令操作，以及github开源服务这些基础知识.
+经过参考上述地址自己搭建了本博客，来总结自己的一些小项目和技术心得    之前对MarkDown很耳熟但是没玩过，此次也是第一次玩~O(∩_∩)O哈哈~    感觉很好玩,这个.md的文件也支持html格式的一些标签.">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Hello Hexo">
 <meta property="og:url" content="http://yoursite.com/2016/05/02/Hello-Hexo/index.html">
 <meta property="og:site_name" content="JiuCheng">
-<meta property="og:description" content="水清鱼读月,山静鸟谈天.">
-<meta property="og:updated_time" content="2016-05-02T02:04:54.000Z">
+<meta property="og:description" content="HEXO搭建博客参考地址:http://yasenia.github.io/
+在学习使用HEXO之前你至少懂得node.js和git命令操作，以及github开源服务这些基础知识.
+经过参考上述地址自己搭建了本博客，来总结自己的一些小项目和技术心得    之前对MarkDown很耳熟但是没玩过，此次也是第一次玩~O(∩_∩)O哈哈~    感觉很好玩,这个.md的文件也支持html格式的一些标签.">
+<meta property="og:updated_time" content="2016-05-05T15:20:46.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Hello Hexo">
-<meta name="twitter:description" content="水清鱼读月,山静鸟谈天.">
+<meta name="twitter:description" content="HEXO搭建博客参考地址:http://yasenia.github.io/
+在学习使用HEXO之前你至少懂得node.js和git命令操作，以及github开源服务这些基础知识.
+经过参考上述地址自己搭建了本博客，来总结自己的一些小项目和技术心得    之前对MarkDown很耳熟但是没玩过，此次也是第一次玩~O(∩_∩)O哈哈~    感觉很好玩,这个.md的文件也支持html格式的一些标签.">
 
 
 
@@ -108,15 +114,6 @@
 </script>
 
   <title> Hello Hexo | JiuCheng </title>
-  <script type="text/javascript">
-    var _hmt = _hmt || [];
-    (function() {
-      var hm = document.createElement("script");
-      hm.src = "//hm.baidu.com/hm.js?b8453e00d3562cdab8ca72de26f0cf78";
-      var s = document.getElementsByTagName("script")[0];
-      s.parentNode.insertBefore(hm, s);
-    })();
-  </script>
 </head>
 
 <body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
@@ -322,7 +319,13 @@
       
 
       
-        
+        <p>HEXO搭建博客<br>参考地址:<a href="http://yasenia.github.io/" target="_blank" rel="external">http://yasenia.github.io/</a></p>
+<p></p><p>在学习使用HEXO之前你至少懂得node.js和git命令操作，以及github开源服务这些基础知识.</p><p></p>
+<p></p><p>经过参考上述地址自己搭建了本博客，来总结自己的一些小项目和技术心得<br>    之前对MarkDown很耳熟但是没玩过，此次也是第一次玩~O(∩_∩)O哈哈~<br>    感觉很好玩,这个.md的文件也支持html格式的一些标签.</p>
+<h2 id=""><a href="#" class="headerlink" title=""></a><p></p></h2><p>javascript的闭包<br>闭包就是有权访问另一个函数作用域的变量的函数。<br>特点：<br>1 定义外层函数，封装被保护的局部变量<br>2 定义内层函数，执行对外层函数局部变量的操作<br>3 外层函数返回内层函数的对象<br>用于银行医院等自助取号系统<br>    <pre><br>        function outer(){<br>            var n=1;<br>            function inner(){<br>                return n++;<br>            }<br>            return inner;<br>        }<br>        var CMS=outer();<br>        console.log(CMS());//输出1<br>        console.log(CMS());//输出2<br>        console.log(CMS());//输出3</pre></p>
+<pre><code>&lt;/pre&gt;
+</code></pre><hr>
+
       
     </div>
     
@@ -478,7 +481,7 @@
               
             
             
-              <p class="post-toc-empty">此文章未包含目录</p>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#"><span class="nav-number">1.</span> <span class="nav-text"></span></a></li></ol></div>
             
           </div>
         </section>
